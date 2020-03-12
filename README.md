@@ -2,6 +2,8 @@
 
 In this set of exercises you will practice solving interview-style questions using hashes.
 
+**Due Monday March 30th 7pm**
+
 ## Array Intersection
 
 Design and implement a method that takes two integer arrays with unique values and returns their intersection in a new array.
