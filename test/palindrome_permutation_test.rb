@@ -12,4 +12,12 @@ xdescribe "palindrome_permutation?" do
   it "will work for emptystring" do
     expect(palindrome_permutation?("")).must_equal true
   end
+
+  it "will work for racecar" do
+    expect(palindrome_permutation?("racecar")).must_equal true
+  end
+
+  it "will return false for raceca" do
+    expect(palindrome_permutation?("raceca")).must_equal false
+  end   
 end
