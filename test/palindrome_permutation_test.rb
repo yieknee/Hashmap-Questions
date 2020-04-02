@@ -21,7 +21,7 @@ xdescribe "palindrome_permutation?" do
     expect(palindrome_permutation?("raceca")).must_equal false
   end
 
-  it "will return true for 'lool' do
+  it "will return true for 'lool'" do
     expect(palindrome_permutation?("lool")).must_equal true 
   end  
 end
