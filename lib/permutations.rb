@@ -19,10 +19,6 @@ def permutations?(string1, string2)
     hash_table[char] ? hash_table[char] = value - 1 :  false
   end
 
-  if hash_table.values.min < 0 || hash_table.values.max > 0
-    return false
-  elsif hash_table.values.sum == 0
-    return true
-  end
+  return hash_table.values.sum == 0 && hash_table.values.min == 0 ? true : false
 
 end
