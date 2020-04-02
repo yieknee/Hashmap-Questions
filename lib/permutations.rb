@@ -8,21 +8,13 @@ def permutations?(string1, string2)
   hash_table = {}
   
   split_string1.each do |char|
-    if hash_table[char] == nil
-      hash_table[char] = 1
-    else
-      value = hash_table[char]
-      hash_table[char] = value + 1
-    end
+    value = hash_table[char]
+    hash_table[char] ? hash_table[char] = value + 1 : hash_table[char] = 1
   end
 
   split_string2.each do |char|
     value = hash_table[char]
-    if hash_table[char] == nil 
-      return false
-    else
-      hash_table[char] = value - 1
-    end
+    hash_table[char] ? hash_table[char] = value - 1 :  false
   end
 
   if hash_table.values.min < 0 || hash_table.values.max > 0
