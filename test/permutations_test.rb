@@ -9,6 +9,9 @@ xdescribe "permutations?" do
     expect(permutations?("hello", "ehllo")).must_equal true
   end
 
+  it "returns true for 'heelo', 'ehllo'" do
+    expect(permutations?("heelo", "ehllo")).must_equal false
+  end
   it "returns true for 'pasta', 'atsap'" do
     expect(permutations?("pasta", "atsap")).must_equal true
   end
