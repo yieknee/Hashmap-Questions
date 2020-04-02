@@ -8,6 +8,8 @@ In this set of exercises you will practice solving interview-style questions usi
 
 Design and implement a method that takes two integer arrays with unique values and returns their intersection in a new array.
 
+**Note**:  Do not use the `&` operator.
+
 For example:
 
 ```
