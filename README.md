@@ -1,4 +1,4 @@
-# Hashmap-Questions
+# Hashmap Exercises
 
 In this set of exercises you will practice solving interview-style questions using hashes.
 
