@@ -1,3 +1,5 @@
+# time complexity: O(n + m)
+# space complexity: O(n)
 
 def permutations?(string1, string2)
   return true if string1.empty? && string2.empty?

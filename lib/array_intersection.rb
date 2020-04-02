@@ -1,3 +1,6 @@
+# time complexity: O(n + m)
+# space complexity: O(n)
+
 def intersection(list1, list2)
   hash_table = {}
   intersection_array = []

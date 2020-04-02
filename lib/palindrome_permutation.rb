@@ -1,4 +1,5 @@
-
+# time complexity: O(n)
+# space complexity: O(n)
 def palindrome_permutation?(string)
   return true if string.length == 1 || string.length == 0
 
